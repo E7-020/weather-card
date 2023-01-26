@@ -1,0 +1,80 @@
+.blocks {
+    margin-left: 370px;
+    margin-bottom: 50px;
+    padding-bottom: 34px;
+    display: flex;
+    justify-content: space-around;
+    width: 760px;
+    height: 300px;
+
+}
+
+.day {
+    background: url(../assets/day.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.nigth {
+    background: url(../assets/night.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.first-block {
+    padding-top: 39px;
+}
+
+.second-block {
+    padding-top: 30px;
+}
+
+.city {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.region {
+    padding-top: 9px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.time {
+    padding-top: 107px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.img {
+    padding-left: 20px;
+}
+
+.degree {
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.fahrenheit {
+    padding-top: 105px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}

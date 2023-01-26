@@ -1,0 +1,15 @@
+.app {
+  width: 100%;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 243px;
+  left: 596px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Inter', sans-serif;
+  color: red;
+}
