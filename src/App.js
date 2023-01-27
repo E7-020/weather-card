@@ -31,7 +31,7 @@ function App() {
       <SearchBar add={add} search={search} setSearch={setSearch} />
       <div className="error">{error}</div>
       {city.map((item) => (
-        <WeatherCard item={item} />
+        <WeatherCard key={city.id} item={item} />
       ))}
     </div>
   );
